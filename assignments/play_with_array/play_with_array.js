@@ -14,8 +14,6 @@ function getEven(arr) {
         }
     }
     return myArray;
-
-
 }
 
 function multiplyByN(arr, n) {
@@ -34,8 +32,7 @@ function multiplyByN(arr, n) {
             myArray.push(arr[i] * n);
         }
 
-
-    }
+   }
     return myArray;
 
 }
@@ -61,13 +58,10 @@ function removeNthElement(arr, n) {
 
         }
 
-
     }
     /*return myArray;
     */
     return arr;
-
-
 }
 
 module.exports = {
