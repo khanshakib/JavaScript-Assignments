@@ -1,12 +1,5 @@
 function getEven(arr) {
-    /* 
-        Return an array containing only even numbers as a result
-        Example
-            Input: [1,4,5,77,8,90]
-            Output: [4,8,90]
-
-        Write you code below
-    */
+    
     let myArray = [];
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] % 2 === 0) {
